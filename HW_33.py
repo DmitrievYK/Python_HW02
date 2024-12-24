@@ -87,7 +87,7 @@ def give_money(balance: Decimal, operations: list):
 
 if __name__ == "__main__":
     print('Добро пожаловать в Банкомат CityBank')
-    balance = 0 # Чтобы иметь корректный формат
+    balance = 0
     count = 1
     flag = True
     operations = []  # Хранение операций
